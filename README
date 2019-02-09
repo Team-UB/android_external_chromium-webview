@@ -36,7 +36,7 @@ in your GN argument file before building.
 X86/X64
 
 The prebuilt libwebviewchromium.so included in these APKs is built from Chromium
-release tag 72.0.3626.969, using the GN build tool. To match our build settings, set:
+release tag 73.0.3683.27, using the GN build tool. To match our build settings, set:
 
 target_os="android"
 is_debug=false
@@ -49,8 +49,8 @@ enable_remoting=true
 is_component_build=false
 enable_nacl=false
 remove_webcore_debug_symbols=true
-android_default_version_name="72.0.3626.96"
-android_default_version_code="3626096$$"
+android_default_version_name="73.0.3683.27"
+android_default_version_code="3683027$$"
 
 $$ depends on device ARCH
 (00=arm, 50=arm64, 10=x86, 60=x64)
